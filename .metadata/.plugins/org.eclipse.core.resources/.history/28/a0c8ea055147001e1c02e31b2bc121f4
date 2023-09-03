@@ -1,0 +1,21 @@
+package javamethods;
+
+public class StaticKeyword {
+
+	String name;
+	static int age;
+	
+	public void test() {
+		System.out.println("test method");
+	}
+	
+	public static void getMail() {
+		System.out.println("get mail method");
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		getMail();
+	}
+
+}

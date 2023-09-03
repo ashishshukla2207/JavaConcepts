@@ -1,0 +1,15 @@
+package constructor;
+
+public class Student {
+
+	
+	String CustName;
+	int custid;
+	int orderId;
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

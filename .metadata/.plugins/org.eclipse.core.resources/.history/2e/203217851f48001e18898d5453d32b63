@@ -1,0 +1,21 @@
+package constructor;
+
+public class Student {
+
+	
+	String SName;
+	int Stid;
+	int SRollNo;
+	
+	Student(){
+		
+	}
+	
+	public static void main(String[] args) {
+		
+			Student s= new Student();
+			s.SName="Ram";
+			s.SRollNo=23;
+	}
+
+}

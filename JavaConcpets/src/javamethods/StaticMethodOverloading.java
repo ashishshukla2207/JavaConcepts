@@ -1,0 +1,24 @@
+package javamethods;
+
+public class StaticMethodOverloading {
+
+	
+	public static void test() {
+		
+		
+	}
+	public static void test(int a) {
+		
+	}
+	
+	public static void test(int a, String b) {
+		
+	}
+	public static void main(String[] args) {
+		
+		test();
+		test(2);
+		
+	}
+
+}

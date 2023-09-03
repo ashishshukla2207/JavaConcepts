@@ -1,0 +1,16 @@
+package constructor;
+
+public class Student {
+
+	
+	String SName;
+	int Stid;
+	int SRollNo;
+	
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,28 @@
+package javamethods;
+
+public class LoginPage {
+	
+	public void login() {
+		
+	}
+	
+	public void login(long phonenumber) {
+		System.out.println("Login with phone" +phonenumber);
+	}
+	
+	public void login(long phonenumber, int otp) {
+		System.out.println("Login with phone & otp" +phonenumber + otp);
+	}
+	public void login(int otp, long phonenumber) {                   //sequence also matters
+		System.out.println("Login with phone & otp" +phonenumber + otp);
+	}
+	public void login(String un, String pwd) {                   //sequence also matters
+		System.out.println("Login with phone & otp" +un + pwd);
+	}
+	
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

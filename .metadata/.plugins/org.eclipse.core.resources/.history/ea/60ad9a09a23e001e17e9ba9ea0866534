@@ -1,0 +1,14 @@
+package programs;
+
+public class FirstNonRepeatedCharacter {
+
+	public static void NonRepeated(String str) {
+		
+	}
+	public static void main(String[] args) {
+		String str= "ashish";
+		NonRepeated(str);
+
+	}
+
+}

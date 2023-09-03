@@ -1,0 +1,25 @@
+package programs;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class FirstNonRepeatedCharacter {
+
+	public static void NonRepeated(String str) {
+		
+		int counter=1;
+		Map<String, Integer> map = new HashMap<>();
+		
+		for(int i=0; i<str.length(); i++) {
+			
+		}
+		
+		
+	}
+	public static void main(String[] args) {
+		String str= "ashish";
+		NonRepeated(str);
+
+	}
+
+}

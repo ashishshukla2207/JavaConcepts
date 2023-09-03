@@ -1,0 +1,17 @@
+package javamethods;
+
+public class MethodsInJava {
+    
+	
+	//no input no return
+	
+	public void test() {
+		System.out.println("test method");
+	}
+	
+	public static void main(String[] args) {
+	
+
+	}
+
+}

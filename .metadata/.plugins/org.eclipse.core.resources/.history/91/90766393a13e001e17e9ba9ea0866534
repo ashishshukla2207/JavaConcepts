@@ -1,0 +1,10 @@
+package programs;
+
+public class FirstNonRepeatedCharacter {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

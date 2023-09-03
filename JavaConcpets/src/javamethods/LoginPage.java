@@ -1,0 +1,46 @@
+package javamethods;
+
+public class LoginPage {
+	
+	
+	//overloading is within the class
+	//different data types
+	//polymorphjsm -- method overloading
+	//same name method
+	//compile time polymorphism
+	
+	public void login() {
+		System.out.println("Login success");
+	}
+	
+	public void login(long phonenumber) {
+		System.out.println("Login with phone " +phonenumber);
+	}
+	
+	public void login(long phonenumber, int otp) {
+		System.out.println("Login with phone & otp" +phonenumber + otp);
+	}
+	public void login(int otp, long phonenumber) {                   //sequence also matters
+		System.out.println("Login with phone & otp" +phonenumber + otp);
+	}
+	public void login(String un, String pwd) {                   //sequence also matters
+		System.out.println("Login with creds" +un + pwd);
+	}
+	
+	public void login(String email, String user, String role) {                   //sequence also matters
+		System.out.println("Login with creds" +email + user +role);
+	}
+	
+	public static void main(String[] args) {
+		
+		LoginPage lp= new LoginPage();
+		lp.login();
+		lp.login(9795899);
+		
+	
+	}
+
+}
+
+
+//why overloading -- for user its better to read  , no need to write seperate login function for each function
